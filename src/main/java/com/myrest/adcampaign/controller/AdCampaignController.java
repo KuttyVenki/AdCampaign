@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import com.myrest.adcampaign.resource.AdCampaign;
-import com.myrest.adcampaign.service.AdCampaignService;
 
 @RestController
 @RequestMapping(value="/adCampaign")

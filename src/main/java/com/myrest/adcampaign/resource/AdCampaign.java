@@ -6,7 +6,6 @@ import javax.persistence.*;
 @Table(name = "adcampaign")
 public class AdCampaign {
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "PARTNERID")
 	private String partnerId;
 
@@ -15,6 +14,8 @@ public class AdCampaign {
 
 	@Column(name = "ADCONTENT")
 	private String adContent;
+
+
 
 	public String getPartnerId() {
 		return partnerId;

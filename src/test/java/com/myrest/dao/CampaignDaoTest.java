@@ -1,4 +1,4 @@
-package com.myspringinmem.dao;
+package com.myrest.dao;
 
 
 
